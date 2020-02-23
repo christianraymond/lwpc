@@ -1,10 +1,10 @@
 {
-  "name": "material-kit-react",
+  "name": "lwpc",
   "homepage": "https://github.com/creativetimofficial/material-kit-react",
   "authors": [
     "creative-tim"
   ],
-  "description": "A Badass Material-UI Kit based on Material Design",
+  "description": "A Badas lwpc site",
   "main": "dist/index.js",
   "keywords": [
     "material",

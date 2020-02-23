@@ -92,7 +92,7 @@ export default function ProfilePage(props) {
               <h4>"I have two great passions: one is to build the Church of Jesus Christ and the other is to lift the lives of people and help them fulfil their potential in life" 
                 David Kashema.</h4>
             </div>
-            {/* <GridContainer justify="center">
+            <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                 <NavPills
                   alignCenter
@@ -207,7 +207,7 @@ export default function ProfilePage(props) {
                   ]}
                 />
               </GridItem>
-            </GridContainer> */}
+            </GridContainer>
           </div>
         </div>
       </div>
