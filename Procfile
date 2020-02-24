@@ -1,1 +1,1 @@
-web: node react-scripts start
+web: npm run build && npm start -- --port $PORT
