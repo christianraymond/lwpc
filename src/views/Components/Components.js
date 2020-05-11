@@ -32,7 +32,7 @@ import SectionOne from "./Sections/SectionOne.js";
 import styles from "assets/jss/material-kit-react/views/components.js";
 
 const useStyles = makeStyles(styles);
-const churchBrand = <img src="livingwordimg.jpg" height={70} width={120} padding={340}/>
+const churchBrand = <img src="livingwordimg.jpg" height={70} width={120} padding={340} />
 export default function Components(props) {
   const classes = useStyles();
   const { ...rest } = props;
@@ -56,7 +56,7 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}>LIVING WORD CHURCH</h1>
                 <h3 className={classes.subtitle}>
-                 Welcome Home
+                  Welcome Home
                 </h3>
               </div>
             </GridItem>
@@ -64,7 +64,8 @@ export default function Components(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
-       <SectionBasics />
+        <SectionBasics />
+        <SectionExamples/>
         {/* <SectionLogin />
         <GridItem md={12} className={classes.textCenter}>
           <Link to={"/login-page"} className={classes.link}>
@@ -73,8 +74,10 @@ export default function Components(props) {
             </Button>
           </Link>
         </GridItem> */}
-        <SectionExamples />
+        {/* <SectionExamples />
         <SectionDownload />
+        <GridItem md={12} className={classes.textCenter}>
+        </GridItem> */}
       </div>
       <Footer />
     </div>

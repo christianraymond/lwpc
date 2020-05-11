@@ -12,7 +12,7 @@ import Button from "components/CustomButtons/Button.js";
 
 import landing from "assets/img/landing.jpg";
 import profile from "assets/img/profile.jpg";
-
+import SectionDownload from '../Sections/SectionDownload';
 import styles from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -60,6 +60,9 @@ export default function SectionExamples() {
                 Read more
               </Button>
             </Link>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={12}>
+           <SectionDownload/>
           </GridItem>
         </GridContainer>
       </div>

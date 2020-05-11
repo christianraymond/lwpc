@@ -1,4 +1,4 @@
-.makeStyles-appBar-9 {
+.makeStyles-appBar-9, .makeStyles-sections-295 {
     color: #555;
     /* width: 100%; */
     /* border: 0; */
@@ -13,6 +13,40 @@
     border-radius: 3px;
     /* margin-bottom: 20px; */
     /* justify-content: flex-start; */
-    background-color: #235075;
+    background-color: #ddd;
     color: #fff;
 }
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/churchBanner1.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }

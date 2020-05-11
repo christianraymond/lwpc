@@ -55,13 +55,13 @@ export default function SectionBasics() {
     }
     setChecked(newChecked);
   };
-  const settings = {
+  const settings  = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 100,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false
+    autoplay: true
   };
   return (
     <div className={classes.sections}>
@@ -72,7 +72,7 @@ export default function SectionBasics() {
         <div id="overview">
             <p>Here at Living word church, we believe your best days are still out in front of you. Whether you are joining us in person or online, we invite you to experience our services and be a part of the church family. The Bible says when you are planted in the house of the Lord, you will flourish. Get ready to step into a new level of your destiny!</p>
             <p>Overwhelmed by the gift of salvation we have found in Jesus, we have a heart for authentic worship, are passionate about the local church, and are on mission to see God’s kingdom established across the earth.</p>
-            <p>Overwhelmed by the gift of salvation we have found in Jesus, we have a heart for authentic worship, are passionate about the local church, and are on mission to see God’s kingdom established across the earth.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>The Church is a local community of baptized believers unified through faith in Christ. It is committed to the teachings of Christ and obeying all of His commands, and it seeks to bring the Gospel to the world. The Church works together in love and unity, intent on the ultimate purpose of glorifying Christ.</p>
         </div>
       </div>
       <div className={classes.section}>
@@ -82,7 +82,7 @@ export default function SectionBasics() {
                 <Card carousel>
                   <Carousel {...settings}>
                     <div>
-                      <img src={image1} alt="First slide" className="slick-image" />
+                      <img src={image1} alt="Leasers image slider" className="slick-image" />
                       <div className="slick-caption">
                         <h4>
                           <LocationOn className="slick-icons" />
@@ -93,7 +93,7 @@ export default function SectionBasics() {
                     <div>
                       <img
                         src={image2}
-                        alt="Second slide"
+                        alt="Christian gatnering slide"
                         className="slick-image"
                       />
                       <div className="slick-caption">
@@ -104,7 +104,7 @@ export default function SectionBasics() {
                       </div>
                     </div>
                     <div>
-                      <img src={image3} alt="Third slide" className="slick-image" />
+                      <img src={image3} alt="Worship time slide" className="slick-image" />
                       <div className="slick-caption">
                         <h4>
                           <LocationOn className="slick-icons" />
