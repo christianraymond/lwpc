@@ -2,7 +2,7 @@ const cardFooterStyle = {
   cardFooter: {
     display: "flex",
     alignItems: "center",
-    backgroundColor: "transparent",
+    backgroundColor: "red",
     padding: "0.9375rem 1.875rem"
   }
 };

@@ -2,27 +2,27 @@ import React from "react";
 import Parallax from "components/Parallax/Parallax.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
+import Button from "../../../components/CustomButtons/Button.js";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 import { makeStyles } from "@material-ui/core/styles";
 import "assets/css/main.scss";
-import Button from "../../../components/CustomButtons/Button.js";
+
 const useStyles = makeStyles(styles);
 
 export default function SectionDownload() {
   const classes = useStyles();
 
   return (
-    <div className="hero-image">
-      <div className="hero-text">
-        <h3>LATEST MESSAGE</h3>
+    <div className="hero-image1">
+      <div className="hero-text1">
+        <h2>Conferences & Events</h2>
+        <h4>Championing the cause of local churches everywhere.</h4>
         <p>
-          When you pass through a difficult season, you have to remember it’s
-          not your final destination. You may be down now, but get ready to rise
-          again. God is not going to let anything keep you from your purpose.
-          You haven’t seen, heard or imagined where He’s taking you.
+          We have exciting events of different reanges, from weddings,
+          conference, baptism and many other great events that we'd love to see
+          you joining
         </p>
-        <p>- David Kashema</p>
         <Button
           color="danger"
           size="lg"

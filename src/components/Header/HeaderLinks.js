@@ -12,8 +12,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
-
+import LocationCityIcon from '@material-ui/icons/LocationCity';
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
@@ -34,14 +33,13 @@ export default function HeaderLinks(props) {
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={Apps}
+          buttonIcon={LocationCityIcon}
           dropdownList={[
             <Link to="/" className={classes.dropdownLink}>
               Cape Town
             </Link>,
             <a
-              href="#"
-              target="_blank"
+              href="/"
               className={classes.dropdownLink}
             >
               Vredenburg Saldana Bay
@@ -57,7 +55,6 @@ export default function HeaderLinks(props) {
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={Apps}
           dropdownList={[
             <Link to="/" className={classes.dropdownLink}>
               LIVING WORD CHURCH
@@ -72,22 +69,8 @@ export default function HeaderLinks(props) {
           ]}
         />
       </ListItem>
+
       <ListItem className={classes.listItem}>
-        <Button
-          href="#"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <CloudDownload className={classes.icons} /> JESUS
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        {/*<Tooltip title="Delete">
-          <IconButton aria-label="Delete">
-            <DeleteIcon />
-          </IconButton>
-        </Tooltip>*/}
         <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
@@ -130,7 +113,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+            href="https://www.youtube.com/"
             target="_blank"
             className={classes.navLink}
           >

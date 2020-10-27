@@ -69,7 +69,7 @@ export default function SectionBasics() {
         <div className={classes.title}>
           <h3><b>Living word pentecostal is a church that believes in Jesus, a church that loves God and people.</b></h3> 
         </div>
-        <div id="overview">
+        <div id="overviews" style={{color: '#b8860b'}}>
             <p>Here at Living word church, we believe your best days are still out in front of you. Whether you are joining us in person or online, we invite you to experience our services and be a part of the church family. The Bible says when you are planted in the house of the Lord, you will flourish. Get ready to step into a new level of your destiny!</p>
             <p>Overwhelmed by the gift of salvation we have found in Jesus, we have a heart for authentic worship, are passionate about the local church, and are on mission to see God’s kingdom established across the earth.</p>
             <p>The Church is a local community of baptized believers unified through faith in Christ. It is committed to the teachings of Christ and obeying all of His commands, and it seeks to bring the Gospel to the world. The Church works together in love and unity, intent on the ultimate purpose of glorifying Christ.</p>
